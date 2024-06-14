@@ -1,0 +1,19 @@
+.border{
+    /* border:2px rgb(8, 244, 12) solid; */
+    gap:2vw;
+}
+
+.flex{
+    display:flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+.grey{
+    background: #121212;
+}

@@ -5,7 +5,7 @@ body{
     font-family: "Varela Round", sans-serif;
     font-weight: 400;
     font-style: normal;
-    height: 100%;
+    height: 200vh;
     color:white;
 
 }
@@ -33,6 +33,7 @@ body{
     right: 0;
     order: 2;
     height:200vh;
+    position: relative;
     /* overflow: scroll; */
     margin-left: 22vw;
     margin-top: 1vw;
@@ -52,10 +53,6 @@ body{
 
 .library{
     height:75vh;
-    /* position: relative; */
-    /* display: grid;
-    grid-template-rows: 1fr 3fr 2fr; */
-    /* grid-template-columns: 1fr 1fr 1fr; */
 }
 .home > img{
     margin-left: 1vw;
@@ -96,8 +93,8 @@ body{
     /* margin-top: 3vw; */
 }
 .library span >img{
-    width:3.5vw;
-    height:7vh
+    width:3vw;
+    height:6vh
 }
 .lib-cont{
     /* position: relative; */
@@ -116,7 +113,7 @@ body{
     margin: 0.5vw;
     background-color: rgb(44, 43, 43);
     /* margin-bottom: 0.5vw; */
-    padding:1vh 1vw;
+    padding:0vh 0.5vw;
     /* border: 2px pink solid; */
     /* position: absolute; */
     width: 100%;
@@ -148,16 +145,113 @@ body{
 
 }
 .plus{
-    width:3vw;
-    height: 6vh;
+    width:2.5vw;
+    height: 5vh;
 }
 .arrow{
     width:2vw;
-    height: 5vh;
+    height: 3.5vh;
     /* padding:0.2vw; */
 }
 .right-l1{
+    margin-top: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.right h1{
+    font-size: 3vw;
+}
+.right h4{
+    font-size:1.2vw;
+}
+
+.nav > p{
+    display: flex;
+    align-items: center;
+
+}
+.nav p > img{
+    width:3vw;
+    height: 8vh;
+}
+.nav{
+    top:0vw;
+    left: 22vw;
+    position: fixed;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 77%;
+    height:17vh;
+}
+.nav p{
+   margin-right:4vw;
+   font-weight: bold;
+}
+.for-back{
+    display: flex;
+    align-items: center;
+    margin-left: 2vw;
+}
+.forward-sym{
+    width:2.5vw;
+    height: 5vh;
+    
+}
+.back-sym{
+    width: 4vw;
+    height: 8vh;
+}
+
+.playlist-cont{
+    height:100vh;
+    /* background-color: #282828; */
+    /* display: grid;
+    width:100%;
+    grid-template-columns: 1 ;
+    grid-auto-rows: auto auto;
+    /* grid-auto-flow: row; */
+    /*margin-top: 2vh; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* Space between boxes */
+}
+.playlist-box{
+    height:270px;
+    /* background-color: #282828; */
+    /* margin:2vh 1vw; */
+    /* width:160px; */
+    flex: 0 1 180px; /* Grow, shrink, base size */
+    /* background-color: lightblue; */
+    padding: 10px;
+    /* margin: 5px; */
+    box-sizing: border-box;
+    /* text-align: center; */
+    border-radius: 5px;
+    /* margin-top: 5vw; */
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.playlist-box > img{
+    /* position: absolute; */
+    width:150px;
+    height:170px;
+    border-radius: 5px;
+    /* left:8px; */
+    /* top:10px; */
+
+}
+.playlist-box h4{
+    margin-top: 10px;
+    font-size: 17px;
+    height:15px;
+}
+.playlist-box p{
+    font-size: 13px;
+    margin-top: -12px;
+    color:rgb(162, 165, 168)
 }
